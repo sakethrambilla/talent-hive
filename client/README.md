@@ -1,50 +1,45 @@
-# React + TypeScript + Vite
+# MERN Stack Job Board Application Features
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Frontend Features (React)
 
-Currently, two official plugins are available:
+### User Interface Components
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [ ] Responsive web design
+- [x] Dark mode toggle
+- [ ] Language localization support
+- [ ] Accessibility features (screen reader support, keyboard navigation)
+- [ ] Search autocomplete and suggestions
 
-## Expanding the ESLint configuration
+### Job Seeker Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- [ ] User profile creation and management interface
+- [ ] Resume builder and uploader
+- [ ] Job search interface with advanced filters
+- [ ] Saved job listings view
+- [ ] One-click job application button
+- [ ] Application status tracker
+- [ ] Job recommendations display
+- [ ] Skill assessment test interface
+- [ ] Professional network building tools
+- [ ] Messaging interface for communicating with recruiters
+- [ ] Career development resources and articles section
 
-- Configure the top-level `parserOptions` property like this:
+### Recruiter Features
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- [ ] Company profile creation and management interface
+- [ ] Job posting interface with customizable fields
+- [ ] Candidate search interface with advanced filters
+- [ ] Applicant tracking system (ATS) dashboard
+- [ ] Interview scheduling tool
+- [ ] Candidate rating and feedback interface
+- [ ] Analytics dashboard for job postings and applicants
+- [ ] Bulk actions interface for managing applications
+- [ ] Branded career page creator
+- [ ] Email template management for candidate communication
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+### Shared Frontend Features
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+- [ ] User authentication interface (login/logout)
+- [ ] Password reset interface
+- [ ] Social media integration for login and sharing
+- [ ] Real-time notification display
