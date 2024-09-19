@@ -6,7 +6,7 @@ interface HomeLayout {
 }
 function HomeLayout({ children }: HomeLayout) {
   return (
-    <div className="flex h-screen w-full flex-col">
+    <div className="flex min-h-screen w-full flex-col">
       <HomeNavbar />
       {children}
     </div>
